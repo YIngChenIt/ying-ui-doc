@@ -16,7 +16,8 @@ module.exports = {
                 collapsable: true,
                 children: [
                     'button',
-                    'layout'
+                    'layout',
+                    'container'
                 ]
             },]
         }
