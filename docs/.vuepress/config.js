@@ -4,6 +4,9 @@ module.exports = {
     dest: './build', // 设置输出目录
     port: 1234, //端口
     themeConfig: { //主题配置
+        // displayAllHeaders: true,
+        lastUpdated: 'Last Updated',
+        smoothScroll: true,
         nav: [
             {
                 text: '个人博客',
@@ -24,7 +27,14 @@ module.exports = {
                     'layout',
                     'container'
                 ]
-            },]
+            },
+            {
+                title: 'Form',
+                collapsable: true,
+                children: [
+                    'input'
+                ]
+            }]
         }
     },
     plugins: [
