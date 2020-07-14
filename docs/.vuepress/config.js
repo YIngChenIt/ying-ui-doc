@@ -33,7 +33,8 @@ module.exports = {
                 collapsable: false,
                 children: [
                     'input',
-                    'upload'
+                    'upload',
+                    'switch'
                 ]
             }, {
                 title: 'Data',
