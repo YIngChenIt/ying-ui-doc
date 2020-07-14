@@ -42,6 +42,13 @@ module.exports = {
                 children: [
                     'progress'
                 ]
+            },
+            {
+                title: 'Others',
+                collapsable: false,
+                children: [
+                    'popover'
+                ]
             }]
         }
     },
