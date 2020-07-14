@@ -4,7 +4,6 @@ module.exports = {
     dest: './build', // 设置输出目录
     port: 1234, //端口
     themeConfig: { //主题配置
-        displayAllHeaders: true,
         sidebarDepth: 1,
         lastUpdated: 'Last Updated',
         smoothScroll: true,
@@ -22,7 +21,7 @@ module.exports = {
         sidebar: {
             '/components/': [{
                 title: 'Basic',
-                collapsable: true,
+                collapsable: false,
                 children: [
                     'button',
                     'layout',
@@ -31,14 +30,14 @@ module.exports = {
             },
             {
                 title: 'Form',
-                collapsable: true,
+                collapsable: false,
                 children: [
                     'input',
                     'upload'
                 ]
             }, {
                 title: 'Data',
-                collapsable: true,
+                collapsable: false,
                 children: [
                     'progress'
                 ]
