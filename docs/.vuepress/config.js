@@ -47,7 +47,8 @@ module.exports = {
                 title: 'Others',
                 collapsable: false,
                 children: [
-                    'popover'
+                    'popover',
+                    'infiniteScroll'
                 ]
             }]
         }
