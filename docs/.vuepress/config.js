@@ -1,10 +1,11 @@
 module.exports = {
     title: 'ying-ui', // 设置网站标题
-    description: 'ui 库', //描述
+    description: '基于Vue2.0实现的仿Element库', //描述
     dest: './build', // 设置输出目录
     port: 1234, //端口
     themeConfig: { //主题配置
-        // displayAllHeaders: true,
+        displayAllHeaders: true,
+        sidebarDepth: 1,
         lastUpdated: 'Last Updated',
         smoothScroll: true,
         nav: [
@@ -32,7 +33,8 @@ module.exports = {
                 title: 'Form',
                 collapsable: true,
                 children: [
-                    'input'
+                    'input',
+                    'upload'
                 ]
             }]
         }
