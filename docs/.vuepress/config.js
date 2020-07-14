@@ -36,6 +36,12 @@ module.exports = {
                     'input',
                     'upload'
                 ]
+            }, {
+                title: 'Data',
+                collapsable: true,
+                children: [
+                    'progress'
+                ]
             }]
         }
     },
