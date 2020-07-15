@@ -44,6 +44,13 @@ module.exports = {
                 ]
             },
             {
+                title: 'Notice',
+                collapsable: false,
+                children: [
+                    'message'
+                ]
+            },
+            {
                 title: 'Others',
                 collapsable: false,
                 children: [
