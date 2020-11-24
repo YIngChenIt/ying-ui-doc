@@ -14,7 +14,7 @@
     "@vuepress/plugin-back-to-top": "^1.5.2",
     "core-js": "^2.6.11",
     "element-ui": "^2.13.2",
-    "highlight.js": "^10.1.1",
+    "highlight.js": "^10.1.2",
     "node-sass": "^4.14.1",
     "sass-loader": "^9.0.2"
   },
